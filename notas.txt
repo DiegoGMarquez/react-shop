@@ -1,0 +1,24 @@
+npm install react@17 react-dom@17 --save
+
+npm install @babel/core @babel/preset-env @babel/preset-react 
+
+npm install webpack webpack-cli webpack-dev-server 
+
+npm install babel-loader html-loader html-webpack-plugin
+
+npm install mini-css-extract-plugin css-loader style-loader sass-loader -D
+
+npm install sass-loader -D
+
+
+Plugin con atajos para react
+https://marketplace.visualstudio.com/items?itemName=EQuimper.react-native-react-redux
+imr, importar react
+slr es un atajo para crear componentes
+
+Es necesario cambiar la palabra class por className
+Es necesario cerrar todas las etiquetas, ejemplo img, al final /
+Es necesario eliminar los espacios en el codigo html dentro de react 
+
+Complemento, nos ayuuda a separar nuestras paginas
+npm install react-router-dom
